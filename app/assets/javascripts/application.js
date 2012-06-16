@@ -13,3 +13,4 @@
 //= require jquery
 //= require libs/lodash
 //= require libs/backbone
+//= require voto
