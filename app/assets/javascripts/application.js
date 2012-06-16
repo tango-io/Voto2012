@@ -14,4 +14,8 @@
 //= require jquery_ujs
 //= require libs/gapimaps
 //= require libs/gmaps
+//= require libs/lodash
+//= require libs/backbone
+//= require voto
+//= require router
 //= require_tree .
