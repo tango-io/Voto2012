@@ -1,1 +1,1 @@
-rvm --create 1.9.3@voto2012
+rvm --create jruby@voto2012
