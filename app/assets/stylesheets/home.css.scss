@@ -1,13 +1,93 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+// variables
+$yellow: #F9F0DB;
+$dark-yellow: #EEE5D3;
+$orange: #F9987F;
+$dark-orange: #CA5D47;
+$red: #A9071E;
+$dark-red: #97061A;
+$blue: #69D2E7;
+$dark-blue: #5DBBCE;
+$green: #A0D36E;
+$dark-green: #A0D36E;
+$white: #FFFFFF;
+$gray: #E4E4E4;
+$black: #000;
+
 body{
-  #frame{
-    background: #fff;
-    padding: 15px;
-    box-shadow: 0 0 20px #999;
-    border-radius: 2px;
-    #map{
-    }
+  background: url('bg.gif') repeat;
+}
+
+header {
+  padding: 30px 0;
+
+  h1 {
+    text-align:center;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 #FFF;
+    line-height: 70px;
+    padding: 0px 0;
+    border-top: 4px solid $black;
+    border-bottom: 4px solid $black;
   }
+}
+
+.map_area,
+.latest_media,
+.latest_tweets {
+
+}
+
+// Boxes
+.box {
+  height: 200px;
+  background: $white;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+  border-radius: 3px;
+  margin: 0 0 20px 0;
+}
+
+.box-yellow {
+  background: $yellow;
+  border: 1px solid $dark-yellow;
+}
+
+.box-orange {
+  background: $orange;
+  border: 1px solid $dark-orange;
+}
+
+.box-red {
+  background: $red;
+  border: 1px solid $dark-red;
+}
+
+.box-blue {
+  background: $blue;
+  border: 1px solid $dark-blue;
+}
+
+.box-green {
+  background: $green;
+  border: 1px solid $dark-green;
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
 }
