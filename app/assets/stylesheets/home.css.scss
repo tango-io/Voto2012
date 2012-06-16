@@ -36,19 +36,28 @@ header {
   }
 }
 
-.map_area,
+#map_area{
+  #frame{
+    #map{
+      height: 300px;
+    }
+  }
+}
+
 .latest_media,
 .latest_tweets {
-
 }
 
 // Boxes
 .box {
-  height: 200px;
   background: $white;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
-  border-radius: 3px;
   margin: 0 0 20px 0;
+  padding: 15px;
+  -webkit-box-shadow: 0 0 20px #999;
+  -moz-box-shadow: 0 0 20px #999;
+  -o-box-shadow: 0 0 20px #999;
+  box-shadow: 0 0 20px #999;
+  border-radius: 2px;
 }
 
 .box-yellow {

@@ -5,9 +5,9 @@
 $(document).ready ->
   map = new GMaps(
     div: "#map"
-    zoom: 16
-    lat: -12.043333
-    lng: -77.028333
+    zoom: 12
+    lat: 19.239522
+    lng: -103.727074
     height: '400px'
     dragend: (e) ->
       alert "dragend"
