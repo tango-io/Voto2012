@@ -6,7 +6,7 @@
 development:
   adapter: postgres
   database: voto2012_dev
-  user: dev
+  username: dev
   password: dev
 
 # Warning: The database defined as "test" will be erased and
@@ -15,11 +15,11 @@ development:
 test:
   adapter: postgres
   database: voto2012_test
-  user: dev
+  username: dev
   password: dev
 
 production:
   adapter: postgres
   database: voto2012
-  user: dev
+  username: dev
   password: dev
