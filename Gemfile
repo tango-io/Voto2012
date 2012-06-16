@@ -9,6 +9,7 @@ end
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
+  gem 'haml'
   gem 'coffee-rails', '~> 3.2.1'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
@@ -25,6 +26,7 @@ platforms :jruby do
   group :development, :production do
     gem 'activerecord-jdbc-adapter', :require => "arjdbc"
     gem 'jdbc-postgres'
+
 
     #gem 'therubyrhino' # jruby
     gem 'trinidad'
