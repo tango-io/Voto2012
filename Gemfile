@@ -2,17 +2,6 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.6'
 
-# Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
-
-gem 'jruby-openssl'
-
-gem 'activerecord-jdbc-adapter', :require => "arjdbc"
-gem 'jdbc-postgres'
-
-# Gems used only for assets and not required
-# in production environments by default.
-
 group :test do
   gem 'rspec-rails'
   gem 'factory_girl_rails'
@@ -30,17 +19,19 @@ end
 
 gem 'jquery-rails'
 
-# To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
+platforms :jruby do
+  gem 'jruby-openssl'
 
-# To use Jbuilder templates for JSON
-# gem 'jbuilder'
+  group :development, :production do
+    gem 'activerecord-jdbc-adapter', :require => "arjdbc"
+    gem 'jdbc-postgres'
 
-# Use unicorn as the app server
-# gem 'unicorn'
+    #gem 'therubyrhino' # jruby
+    gem 'trinidad', '1.3.4'
+  end
 
-# Deploy with Capistrano
-# gem 'capistrano'
+  group :development do
+    gem 'pry'
+  end
+end
 
-# To use debugger
-# gem 'debugger'
