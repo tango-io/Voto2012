@@ -15,3 +15,4 @@
 //= require libs/backbone
 //= require voto
 //= require router
+//= require_tree .

@@ -4,6 +4,6 @@ Voto.Router = Backbone.Router.extend({
     },
 
     home: function(){
-        console.log('Im home baby');
+        this.home = new Voto.View.Home();
     }
 })
