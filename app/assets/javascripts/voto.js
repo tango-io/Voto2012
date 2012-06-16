@@ -3,5 +3,12 @@ var Voto = Voto || {
     Collection: {},
     View: {},
 
-    Initialize: function(){}
+    Initialize: function(){
+        Voto.router = new Voto.Router();
+        Backbone.history.start();
+    }
 }
+
+$(function(){
+    Voto.Initialize();
+});

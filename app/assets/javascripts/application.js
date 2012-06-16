@@ -14,3 +14,4 @@
 //= require libs/lodash
 //= require libs/backbone
 //= require voto
+//= require router
