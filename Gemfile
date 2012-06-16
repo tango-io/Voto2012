@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.6'
 
 gem 'twitter'
+gem 'twitterstream'
 
 group :test do
   gem 'rspec-rails'
