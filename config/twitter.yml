@@ -1,0 +1,11 @@
+development:
+  consumer_key: PlY2hX8Nghb0Ze2qgXrg
+  consumer_secret: d1b0PH0bzu0QOljlWbiS2sD6wagUUdzUyMMbyuOY
+  oauth_token: 68600037-rQvJdHeNodt4TiH526SSNhJ8V7GJf5Nc49Lg513ft
+  oauth_token_secret: kQjj5I9tbBEwXIYVveH2rBiFHeL4TpHF2K65X3SwmZc
+
+production:
+  consumer_key: PlY2hX8Nghb0Ze2qgXrg
+  consumer_secret: d1b0PH0bzu0QOljlWbiS2sD6wagUUdzUyMMbyuOY
+  oauth_token: 68600037-rQvJdHeNodt4TiH526SSNhJ8V7GJf5Nc49Lg513ft
+  oauth_token_secret: kQjj5I9tbBEwXIYVveH2rBiFHeL4TpHF2K65X3SwmZc

@@ -15,3 +15,4 @@ config/database.yml
 /log/*
 /tmp/**/*
 /tmp/*
+work/resque/log/*

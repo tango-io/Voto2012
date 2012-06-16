@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.6'
 
+gem 'twitter'
+
 group :test do
   gem 'rspec-rails'
   gem 'factory_girl_rails'
