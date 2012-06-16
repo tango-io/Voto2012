@@ -10,5 +10,5 @@ $(document).ready ->
     lng: -103.727074
     height: '400px'
     dragend: (e) ->
-      alert "dragend"
+      console.log "dragend"
     )
