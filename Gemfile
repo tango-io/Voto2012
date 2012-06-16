@@ -27,7 +27,8 @@ platforms :jruby do
     gem 'jdbc-postgres'
 
     #gem 'therubyrhino' # jruby
-    gem 'trinidad', '1.3.4'
+    gem 'trinidad'
+    gem 'trinidad_resque_extension'
   end
 
   group :development do
