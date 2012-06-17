@@ -7,7 +7,7 @@ var Voto = Voto || {
         Voto.router = new Voto.Router();
         Backbone.history.start();
     }
-}
+};
 
 $(function(){
     Voto.Initialize();
