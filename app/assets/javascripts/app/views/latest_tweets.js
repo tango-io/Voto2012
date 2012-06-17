@@ -27,7 +27,7 @@ Voto.View.LatestTweets = Backbone.View.extend({
         this.$el.find('.timeline').html('');
 
         _.each(results, function(tweet) {
-            self.$el.find('.timeline').append('<li class="tweet"><img src="'+tweet.profile_image_url+'" width="50" height="60"/><span id="tweetText">'+tweet.text+'</span></li>');
+            self.$el.find('.timeline').append('<li class="tweet"><img src="'+tweet.profile_image_url+'" width="50" height="60"/><p class="tweetText">'+tweet.text+'</p></li>');
         });
 
         return this;
